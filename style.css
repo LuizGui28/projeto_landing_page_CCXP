@@ -1,0 +1,14 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inicio{
+    background-color:  #FFD900;
+    height: 118px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding-left: 50px;
+}
