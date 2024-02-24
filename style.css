@@ -2,6 +2,7 @@ body{
    margin: 0px;
    padding: 0px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 #inicio{
@@ -11,4 +12,87 @@ body{
     grid-auto-flow: column;
     align-items: center;
     padding-left: 50px;
+    width: 1635px;
+}   
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    
 }
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    width: 830px;
+    color: #514988;
+    margin-left: 20px;
+    height: 145px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+
+#convite{
+    background-color:  #514988;
+    width: 800px;
+    height: 670px;
+    text-align: center;
+}
+
+#titulo{
+    color: #FFD900;
+    margin-bottom: 15px;
+}
+
+#subtitulo{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#texto{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#chamativo{
+    color: #E33881;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+#cronometo{
+    width: 900px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #FFD900;
+}
+
+#final{
+    margin: 30px;
+    margin-left: 70px;
+}
+
+#ingressos{
+    margin-left: 20px;
+    display: grid;
+    grid-auto-flow: column
+}
+
+button{
+    width: 500px;
+    height: 140px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
